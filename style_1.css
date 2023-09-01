@@ -1,0 +1,55 @@
+ h1 {
+    color:purple;
+    margin-left: 600px;
+    margin-right: 500px;
+    border-style:ridge;
+    border-color:orange;
+    border-width:5px;
+    padding-left: 30px;
+    background-color:azure;
+
+}
+h1 :hover
+{
+    color:green;
+}
+input {
+    width:80%;
+    margin-left: 20px;
+    box-sizing:border-box;
+    margin:20px;
+    padding:20px;
+    background-color: whitesmoke;
+
+}
+body {
+    background-image: url(https://cdn.zeebiz.com/sites/default/files/2023/07/04/249475-delhi-weather-today-rain.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+label {
+    margin-left: 20px;
+    padding: 20px;
+    width:30px;
+    color:rgb(0,0,0,10);
+    height:150%;
+    border-style: dashed;
+    border-color:blue;
+    border-radius: 30%;
+    border-width: 4px;
+    font-size: 25px;
+    background-color: aliceblue;
+}
+label :hover
+{
+    color:brown;
+}
+img {
+    margin-left: 350px;
+    width: 800px;
+    height: 350px;
+    padding: 5opx;
+    border-style:ridge ;
+    border-color: blanchedalmond;
+    border-radius: 25px;
+}

@@ -1,0 +1,92 @@
+body, h1, h2, h3, p {
+    margin: 10px;
+    padding: 25px;
+}
+body{
+    background-color:blanchedalmond;
+}
+h1 {
+    font-family:cursive;
+    font-size: 50px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+h2{
+    font-size: 50px;
+    color: red;
+}
+h3 {
+    font-size: 35px;
+}
+header {
+    padding: auto;
+    text-align: center;
+    padding: 1rem 0;
+    background:url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhZGVyfGVufDB8fDB8fHww&w=1000&q=80);
+
+}
+
+nav ul {
+    list-style:lower-roman;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+}
+nav li :hover
+{
+    color: brown;
+}
+section {
+    padding: 2rem;
+}
+img{ 
+    width:550px;
+}
+.projects .project1 img{
+    width:50px;
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+.project1,.project2 {
+    margin-bottom: 2rem;
+    display:flex;
+}
+.container {
+    display:flex;
+    align-items: center;
+}
+p {
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:darkblue;
+}
+hr {
+    border: 1px solid red;
+}
+a :hover{
+    color:crimson;
+}
+address {
+    font-size: 15px;
+    background: black;
+}
+a {
+    margin: 10px;
+}
+section address a img {
+    width: 60px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 250px;
+}
